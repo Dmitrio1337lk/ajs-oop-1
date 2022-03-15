@@ -9,7 +9,3 @@ export default class Swordsman extends Character {
     if (this.type !== 'Swordsman') throw new Error('Невалидный класс');
   }
 }
-
-const warrior = new Swordsman('Warrian1234', 'Swordsman');
-
-console.log(warrior);

@@ -9,7 +9,3 @@ export default class Bowerman extends Character {
     if (this.type !== 'Bowerman') throw new Error('Невалидный класс');
   }
 }
-
-const bowman = new Bowerman('Dmitri', 'Bowerman');
-
-console.log(bowman);

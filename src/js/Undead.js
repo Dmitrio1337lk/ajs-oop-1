@@ -9,7 +9,3 @@ export default class Undead extends Character {
     if (this.type !== 'Undead') throw new Error('Невалидный класс');
   }
 }
-
-const rogue = new Undead('Alexander', 'Undaed');
-
-console.log(rogue);
